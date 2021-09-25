@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "preinstall": "mkdir public && cp -Rv node_modules/@mediapipe/holistic/ public/holistic",
     "serve": "vite preview"
   },
   "devDependencies": {
@@ -12,10 +13,10 @@
     "vite": "^2.5.4"
   },
   "dependencies": {
-    "@mediapipe/camera_utils": "0.3.1632432234",
-    "@mediapipe/control_utils": "0.6.1629159505",
-    "@mediapipe/drawing_utils": "0.3.1620248257",
-    "@mediapipe/holistic": "0.4.1628005088",
-    "device-detector-js": "2.2.10"
+    "@mediapipe/camera_utils": "^0.3.1632432234",
+    "@mediapipe/control_utils": "^0.6.1629159505",
+    "@mediapipe/drawing_utils": "^0.3.1620248257",
+    "@mediapipe/holistic": "^0.4.1628005088",
+    "device-detector-js": "^2.2.10"
   }
 }
