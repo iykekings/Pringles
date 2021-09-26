@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preinstall": "mkdir public && cp -Rv node_modules/@mediapipe/holistic/ public/holistic",
+    "preinstall": "cp -Rv node_modules/@mediapipe/holistic/ public/holistic",
     "serve": "vite preview"
   },
   "devDependencies": {
